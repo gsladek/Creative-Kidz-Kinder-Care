@@ -1,0 +1,462 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  
+/*Theme styling*/
+.emph{
+  color: var(--bs-primary);
+  }
+
+  .cta-btn{
+    max-width: 200px;
+    margin: 20px;
+  }
+
+/*NAVIGATION*/
+nav{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navigation{
+background: var(--bs-primary);
+}
+
+.title{
+ display: none;
+}
+
+.navbar-toggler, .navbar-nav{
+  margin-right: 10%;
+}
+
+.navbar-toggler{
+  height: 60px;
+  width: 60px
+}
+
+.navbar-brand{
+  margin-left: 5%
+}
+
+.nav-link{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav-link:hover{
+  background-color: white;
+}
+
+.justify-content-center{
+  margin: auto;
+}
+
+/*HEADER*/
+
+.header_img{
+  background-image: url("../img/artsandcraft.jpg");
+  min-width: 100%;
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0 20px 0;
+}
+
+.overlay{
+background-color: rgba(0,0,0,.8);
+color: white;
+font-size:large;
+max-width: 90%;
+margin: auto;
+min-height: 250px;
+padding: 10%;
+}
+
+/*MAIN content*/
+body{
+  background-color: var(--bs-primary);
+}
+main{
+  background-image: url("/background.png");
+  background-position: center;
+}
+.content-wrapper{
+  max-width: 1200px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  height: auto;
+  min-height: 35em;
+}
+
+.container-md{
+  margin-top: 20px;
+}
+
+.collapsable {
+  font-weight: bold !important;
+  min-width: 100%;
+  border-radius: 0 !important;
+}
+
+.date{
+  font-weight: 800;
+  color: white;
+}
+
+.eventname{
+  color: var(--bs-yellow);
+  font-weight: 600;
+}
+
+
+.moreinfo{
+  background-color: var( --bs-gray-800);
+  color: white;
+  padding: 10%;
+  margin-top: -20px;
+}
+
+.statement{
+  max-width: 90%;
+}
+
+.testimonial{
+  background-color:rgba(151,201,171, .5);
+  max-width: 90% !important;
+  margin: 5%;
+  min-height: 200px;
+  font-size: large;
+  padding: 20px;
+  color:#5D675B;
+  font-family: 'Anek Tamil', sans-serif;
+}
+
+.testimonial-name{
+  display:block;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/*Programs*/
+
+.content img{
+  margin-top:20px;
+}
+
+.print-info{
+  text-align: center;
+  max-width: 1000px;
+  margin: 20px;
+}
+
+.information{
+  margin: auto;
+}
+
+.program-title{
+  text-align: center;
+  font-weight: 600;
+}
+
+.age{
+  text-align: center;
+  font-style: italic;
+  font-size: large;
+}
+
+.program-text{
+  margin: 10px 0 10px 0;
+}
+
+/*Side bar*/
+
+.btn-sidebar{
+  padding: 5px 10px 10px 10px !important;
+  border:#b14c16 solid 1px !important;
+  margin-left: -25px;
+}
+  .wrapper{
+    display:flex;
+  }
+
+   .sidebar-nav{
+    background-color: white;
+    width: 20%;
+  } 
+  .mini-nav-header{
+    font-weight: bold;
+    display:block;
+    text-align: center;
+    }
+
+  .mini-nav li{
+    text-align: center;
+    background-color: white !important;
+     z-index: 10;
+     margin: 0;
+  }
+  .mini-nav a{
+    text-decoration: none;
+    font-weight: 600;
+    color:white;
+    background-color: var(--bs-primary);
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 10em;
+    margin:0;
+    border-radius: 0;
+  }
+
+  .mini-nav a:hover{
+    color:black;
+    background-color: white;
+  }
+
+
+.sticky{
+  background-color: white;
+  padding: 40px;
+  margin: 0 0 40px;
+  position: sticky;
+  top: 5em;
+  z-index: 1;
+}
+
+.desktop{
+  display: none;
+}
+.phone{
+  font-weight: 800;
+}
+
+/*Acordian*/
+.slide{
+  margin-bottom: 20px;
+}
+
+/*About*/
+.about-img{
+  max-width:100%;
+  min-height: 200px;
+  background-image: url("/img/insidelook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Staff*/
+
+.staff {
+  max-width: 400px !important;
+  margin: auto;
+  margin-top: 20px !important;
+}
+.staff-title{
+  display: block;
+  font-size: x-large;
+  font-style: italic;
+}
+
+.staff-img{
+  height: 300px;
+  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta{
+  padding: 10%;
+  background-color: rgba(151,201,171, .2) !important;
+  border: none !important;
+  margin-top: 20px !important;
+}
+
+.img-1{
+  background-image: url("../img/staff_img/Brittany Robertson.jpg");
+  background-position: 50% 10%;
+}
+
+.img-2{
+  background-image: url("../img/staff_img/Megan Drake.jpeg");
+}
+
+.img-3{
+  background-image: url("../img/staff_img/Kathy Clemson.jpg");
+}
+
+.img-4{
+  background-image: url("../img/staff_img/Kaleigh Stewart.jpg");
+}
+
+/*Careers*/
+.question{
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+#inputGroupFile02
+{
+  margin-top: 20px;
+}
+
+/*Contact*/
+
+
+.submit{
+  margin-top: 10px;
+}
+
+input{
+  margin-bottom: 10px !important;
+}
+
+
+/*Footer*/
+footer{
+  background-color: var(--bs-secondary);
+  padding: 20px;
+  
+}
+
+.footer-btn {
+  margin: 0 30% 0 30%;
+  
+}
+
+/*Laptop/Desktop Styling*/
+
+@media (min-width: 600px) { 
+  .header_img{
+    min-height: 400px;
+    margin-bottom: 20px;
+  }
+  .overlay{
+    max-width: 50%;
+    min-height: auto;
+    margin: 5% 0 5% 45%;
+    padding: 5%;
+  }
+  .print-info{margin: 5%;}
+
+  .title{
+    display:inline-block;
+    font-size: x-large;
+    font-weight: 800;
+    color:white;
+    text-shadow: #5D675B;
+    margin-top: 5%;
+   }
+  
+  .statement{
+  font-size:large
+}
+  .event, .container-md{
+    min-width: 50% !important;
+  }
+
+  .testimonial{
+    border: 10px white solid;
+  }
+  /*accordian*/
+  .slide img{
+    max-height:500px;
+    max-width: fit-content;
+  }
+  .slide{
+    max-height: 500px;
+    max-width: 800px;
+    margin:auto;
+  }
+  
+
+  .about-img{
+    min-height: 400px;
+  }
+
+  /*footer*/
+  footer{
+    margin-top: -20px;;
+  }
+  .footer-btn {
+    margin: 0 35% 0 35%; 
+  }
+
+ }
+
+ @media (min-width: 1020px){
+  .content-wrapper{
+    padding: 40px;
+  }
+  .header_img{
+    background-position:75% 25% ;
+    max-width: 600px;
+    min-height: 500px;
+  }
+
+  
+  .about-img{
+    background-position: center;
+  }
+
+  .footer-btn {
+    margin-left: 20% !important; 
+  }
+
+
+  .overlay{
+    max-width: 50%;
+    min-height: 10em;
+    font-size: x-large;
+    padding: 3%;
+  }
+
+  .statement{
+    margin: 5%;
+  }
+
+  .event{
+    min-width: 20% !important;
+    max-width: 30% !important;
+    margin-bottom: 40px;
+  }
+
+  .card-img-top{
+    max-height: 200px;
+  }
+  .footer-btn {
+    margin: 0 40px; 
+  }
+
+ .date{
+   font-size: x-large;
+ }
+.eventname{
+  font-size: large;
+}
+
+.desktop{
+  display: inline-block;
+  font-size:2em;
+  padding: none;
+  margin: auto;
+}
+.navbar-toggler-icon.phone{
+  display: none;
+}
+
+.single-row{
+  margin: 20px !important;
+  }
+
+.btn-sidebar{
+  margin:auto;
+}
+
+.cta{
+  font-size: large;
+}
+
+}
+
